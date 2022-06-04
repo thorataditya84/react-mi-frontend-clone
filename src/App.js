@@ -3,6 +3,7 @@ import data from './data/data.json';
 import {BrowserRouter as Router} from 'react-router-dom';
 import PreNavbar from './components/PreNavbar';
 import Navbar from './components/Navbar';
+import Slider from './components/Slider';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Router>
             <PreNavbar />
             <Navbar />
+            <Slider start={data.banner.start}/>
         </Router>
     );
 }

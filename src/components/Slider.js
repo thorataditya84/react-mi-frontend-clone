@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const Slider = ({start}) => {
     return (
@@ -20,4 +21,4 @@ const Slider = ({start}) => {
     )
 }
 
-export default Slider
+export default Slider;
