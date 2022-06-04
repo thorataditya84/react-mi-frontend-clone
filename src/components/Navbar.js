@@ -1,6 +1,6 @@
 import React from 'react'
 import data from '../data/data.json'
-import '../styles/nav.css'
+import '../styles/Navbar.css'
 import {Link} from 'react-router-dom'
 
 

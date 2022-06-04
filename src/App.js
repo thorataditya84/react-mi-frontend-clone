@@ -13,9 +13,9 @@ function App() {
         <Router>
             <PreNavbar />
             <Navbar />
-            <Slider start={data.banner.start}/>
+            <Slider start={data.banner.start} />
             <Offers offer={data.offer} />
-            <Heading />
+            <Heading text='STAR PRODUCTS' />
         </Router>
     );
 }
