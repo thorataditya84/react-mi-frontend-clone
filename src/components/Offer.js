@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Offer = ({src, link, index}) => {
     return (
         <a href={link}>
