@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Offer = ({src,link,index}) => {
+const Offer = ({src, link, index}) => {
     return (
         <a href={link}>
             <img src={src} alt={`${index} offer`} />
@@ -8,4 +8,4 @@ const Offer = ({src,link,index}) => {
     )
 }
 
-export default Offer
+export default Offer;
