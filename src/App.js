@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Offers from './components/Offers';
 import Heading from './components/Heading';
+import StarProduct from './components/StarProduct';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Slider start={data.banner.start} />
             <Offers offer={data.offer} />
             <Heading text='STAR PRODUCTS' />
+            <StarProduct starProduct={data.starProduct} />
         </Router>
     );
 }
