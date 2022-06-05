@@ -1,6 +1,6 @@
 import React from 'react'
 import HotItemCard from './HotItemCard'
-import '../styles/HotAccessories.css'
+import './HotAccessories.css'
 
 
 const HotAccessories = ({

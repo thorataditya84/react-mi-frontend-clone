@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import '../styles/HotAccessoriesMenu.css'
+import './HotAccessoriesMenu.css'
 
 const HotAccessoriesMenu = () => {
   return (

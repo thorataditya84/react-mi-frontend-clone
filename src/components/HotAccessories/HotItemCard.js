@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/HotItemCard.css'
+import './HotItemCard.css'
 
 
 const HotItemCard = ({image, index, name, price}) => {
