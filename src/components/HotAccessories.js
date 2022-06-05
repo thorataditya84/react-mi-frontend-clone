@@ -1,5 +1,5 @@
 import React from 'react'
-import HotItemCard from './HotItemCard.js'
+import HotItemCard from './HotItemCard'
 import '../styles/HotAccessories.css'
 
 
