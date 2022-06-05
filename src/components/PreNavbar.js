@@ -29,9 +29,4 @@ const PreNavbar = () => {
     )
 }
 
-export default PreNavbar;
-
-
-
-
-
+export default PreNavbar

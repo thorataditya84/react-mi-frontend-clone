@@ -54,10 +54,10 @@
 
 #logoImage {
     transition: all 0.2s;
-    transform: translateX(-58px);
+    transform: translateX(-54px);
 }
 
 #logoImage:hover {
 
-    transform: translateX(0);
+    transform: translateX(1px);
 }

@@ -11,8 +11,8 @@ const Offers = ({offer}) => {
                     <Offer key={item.image} index={index} src={item.image} link={item.url} />
                 ))
             }
-    </div>
+        </div>
     )
 }
 
-export default Offers;
+export default Offers

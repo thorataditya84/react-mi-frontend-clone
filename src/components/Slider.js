@@ -21,4 +21,4 @@ const Slider = ({start}) => {
     )
 }
 
-export default Slider;
+export default Slider
